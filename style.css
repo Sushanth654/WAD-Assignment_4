@@ -1,0 +1,90 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(232, 242, 250);
+    margin: 0;
+    height: 100%;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.page{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    display: flex;
+    height: 20%;
+}
+
+.top-left{
+    width: 30%;
+}
+
+.top-right{
+    width: 70%;
+}
+
+.middle{
+    height: 10%;
+}
+
+.bottom{
+    display: flex;
+    height: 70%;
+}
+
+.bottom-left{
+    width: 20%;
+}
+
+.bottom-right{
+    width: 80%;
+}
+
+img{
+    background-color: #198754;
+    border-radius: 20px;
+}
+
+h1{
+    color: #198754;
+    text-align: center;
+}
+
+table tr td a{
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 9px 20px;
+    margin-left: 150px;
+    display: inline-block;
+    border-radius: 20px;
+    background-color: #198754;
+}
+
+table tr td a:hover{
+    background-color: #145c32;
+}
+
+h3{
+    color: #198754;
+    font-weight: bolder;
+}
+
+ul li {
+    font-size: 20px;
+    font-weight: bold;
+    color: #198754;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
